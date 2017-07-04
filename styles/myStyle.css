@@ -1,0 +1,668 @@
+
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+body {
+    direction: rtl;
+}
+#container {
+    width: 960px;
+    margin: 0 auto;
+    position:relative;
+}
+/*כפתור קיצור דרך*/
+#nagish
+{
+    position:absolute;
+    right:500px;
+    color:white;
+}
+#nagish:focus
+{
+color:black;
+}
+/*לוגו*/
+#logoAll {
+    display: block;
+    float: right;
+    color: red;
+    position: relative;
+
+}
+
+#logo {
+    text-align: center;
+    color: red;
+    font-size: 13pt;
+    font-weight: bold;
+    display: block;
+    float: right;
+    font-family:'Varela Round', sans-serif;
+    margin-right:20px;
+}
+
+#logon {
+    text-align: center;
+    color: red;
+    font-size: 13pt;
+    font-weight: bold;
+    display: block;
+    float: right;
+    font-family:'Varela Round', sans-serif;
+}
+#logo2 {
+    font-size: 35pt;
+    font-weight: bold;
+    font-family:'Varela Round', sans-serif;
+}
+
+#logoAll img {
+    display: block;
+    float: right;
+}
+/*תפריט ניווט*/
+#here {
+    display: block;
+    background-color: #74AC90;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 235px;
+    height: 40px;
+    Padding-top: 10px;
+    font-size: 12pt;
+    color: black;
+    margin-right:20px;
+    font-family:'Varela Round', sans-serif;
+}
+#here3 {
+    display: block;
+    background-color: #74AC90;
+    text-decoration: none;
+    text-align: center;
+    width: 235px;
+    height: 40px;
+    Padding-top: 10px;
+    font-size: 12pt;
+    color: black;
+    font-family:'Varela Round', sans-serif;
+}
+#no {
+    display: block;
+    background-color: #c6c6c6;
+    text-decoration: none;
+    text-align: center;
+    width: 235px;
+    height: 40px;
+    Padding-top: 10px;
+    font-size: 12pt;
+    color: black;
+    font-family:'Varela Round', sans-serif;
+}
+#navAll {
+    z-index:1;
+    display: block;
+    position: absolute;
+    top: 93px;
+    font-family:'Varela Round', sans-serif;
+}
+
+#nav1 ul {
+    list-style: none;
+    /*הגדרת רוחב ומרכוז התפריט לאמצע*/
+    width: 960px;
+    margin: 0 auto;
+    font-family:'Varela Round', sans-serif;
+}
+
+    #nav1 ul li {
+        display: inline-block;
+        float: right;
+        font-family:'Varela Round', sans-serif;
+    }
+
+        #nav1 ul li a {
+            display: block;
+            background-color: #84D4AA;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            width: 235px;
+            height: 40px;
+            Padding-top: 10px;
+            font-size: 12pt;
+            color: black;
+            font-family:'Varela Round', sans-serif;
+
+
+        }
+
+
+
+            #nav1 ul li a:hover {
+                background-color: #74AC90;
+            }
+            #nav1 ul li a:focus {
+                background-color: #74AC90;
+            }
+
+            #nav1 ul li a:active {
+                background-color: #6B9E85;
+            }
+
+
+        #nav1 ul li ul {
+            display: none;
+            position: absolute;
+        }
+
+        #nav1 ul li:hover ul  {
+            display: block;
+            width: 120px;
+        }
+        #maze
+        {
+            top:40px;
+        }
+        #nav1 ul li:focus ul {
+            display: block;
+            width: 120px;
+        }
+/*פוטר*/
+#here2
+{
+            display: block;
+            background-color: white;
+            text-decoration: underline;
+            text-align: center;
+            width: 110px;
+            height: 40px;
+            Padding-top: 10px;
+            font-size: 12pt;
+            color: black;
+            font-family:'Varela Round', sans-serif;
+}
+#footerNav
+{
+    margin-top:20px;
+}
+#footerNav2
+{
+    margin-top:350px;
+}
+#nav2 ul {
+    list-style: none;
+
+}
+#nav2 ul li {
+        display: inline-block;
+        float: right;
+        font-family:'Varela Round', sans-serif;
+    }
+
+        #nav2 ul li a {
+            display: block;
+            background-color: white;
+            text-decoration: none;
+            text-align: center;
+            width: 110px;
+            height: 40px;
+            Padding-top: 10px;
+            font-size: 12pt;
+            color: black;
+            font-family:'Varela Round', sans-serif;
+        }
+         #nav2 ul li a:hover {
+               text-decoration:  underline;
+            }
+         #nav2 ul li a:focus {
+               text-decoration:  underline;
+            }
+
+/*דף הבית 0*/
+/*משפט פתיחה*/
+#home_mispat
+{
+    position:absolute;
+    text-align:center;
+    font-size:35pt;
+    top:220px;
+    right:90px;
+    font-weight: bold;
+    font-family:'Varela Round', sans-serif;
+}
+/*קרוסלה*/
+#carusela {
+    width: 450px;
+    height: 300px;
+    margin-top: 32px;
+    margin-right: 510px;
+}
+/*הצפת תוכן*/
+.row .col-xs-4 img
+{
+    position:relative;
+}
+.row .col-xs-4 h2
+{
+position:absolute;
+    right:45px;
+    top:80px;
+    font-size:14pt;
+    color:white;
+    background-color:rgba(0, 0, 0, 0.8);
+    padding-bottom:10px;
+    padding-top:10px;
+    padding-left:10px;
+    padding-right:10px;
+    height:40px;
+    font-family:'Varela Round', sans-serif;
+    
+}
+.row .col-xs-4 p {
+    background-color: #D9F2E5;
+    height: 170px;
+    width: 272px;
+    margin-right: 29px;
+    font-family:'Varela Round', sans-serif;
+    
+}
+
+.row .col-xs-4 :nth-child(3) {
+   
+    float: right;
+}
+
+
+.row .col-xs-4 :nth-child(1) {
+    float: left;
+    padding-right: 10px;
+}
+
+.row .col-xs-4 p {
+    font-size: 12pt;
+    padding-right: 20px;
+    padding-top: 20px;
+    font-family:'Varela Round', sans-serif;
+}
+.row .col-xs-4 p a
+{
+    font-size: 12pt;
+
+    text-align:left;
+    color:#4040FF;
+    position:relative;
+    font-family:'Varela Round', sans-serif;
+
+}
+.row .col-xs-4  a
+{
+    font-size: 12pt;
+
+    text-align:left;
+    color:black;
+    position:absolute;
+    right:110px;
+    bottom:10px;
+    font-family:'Varela Round', sans-serif;
+}
+#linkhomepage
+{
+    right:140px;
+    color:#4040FF;
+}
+#link
+{
+    color:#4040FF;
+}
+#no2
+{
+    cursor: not-allowed;
+}
+/*ייצוג אינטרקטיסי דף 2*/
+#iezug
+{
+    margin-top:50px;
+    z-index:-1;
+}
+/*מה זה בנטו בוקס 1*/
+.footerMaze
+{
+margin-top:100px;
+}
+#mazeone
+{
+    margin-top:20px;
+}
+.mazep
+{
+        font-size:12pt;
+    font-family:'Varela Round', sans-serif;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+#mazeh
+{
+    font-size:13pt;
+    font-weight: bold;
+    font-family:'Varela Round', sans-serif;
+}
+#alhasas
+{
+    font-size:12pt;
+    font-family:'Varela Round', sans-serif;
+}
+#red
+{
+    font-size:12pt;
+    font-weight: bold;
+    color:red;
+    font-family:'Varela Round', sans-serif;
+}
+.bulet
+{
+font-weight: bold;
+font-family:'Varela Round', sans-serif;
+}
+.bulet2
+{
+ font-size:12pt;
+font-family:'Varela Round', sans-serif;
+margin-top:10px;
+}
+#myModalLabel
+{
+     font-size:14pt;
+     font-weight: bold;
+     font-family:'Varela Round', sans-serif;
+}
+#popap
+{
+    margin-right:10px;
+}
+.btn-success
+{
+    margin-left:100px;
+    float:left;
+}
+.mazekoll
+{
+    display:inline-block;
+    float:right;
+}
+#mazeimg
+{
+    margin-right:100px;
+}
+#mrbento
+{
+    margin-top:20px;
+    margin-right:140px;
+}
+/*על הטרנד 1.1*/
+.trend
+{
+    font-size:14pt;
+    font-family:'Varela Round', sans-serif;
+    font-size: 12pt;
+    margin-bottom:15px;
+}
+#oneTrend
+{
+    margin-top:30px;
+}
+#amudTrend
+{
+    display:inline-block;
+}
+#onePice
+{
+    margin-top:30px;
+    margin-left:20px;
+    float:left;
+    display:inline-block;
+}
+#onePice p
+{
+    font-size:12pt;
+    font-family:'Varela Round', sans-serif;
+}
+.footerTrend
+{
+    margin-top:70px;
+}
+/*דף מתכונים 3*/
+#pirurim
+{
+    margin-top:50px;
+    float:right;
+}
+#pirurim li
+{
+    display:inline-block;
+}
+#matcon
+{
+     font-size:14pt;
+    font-weight: bold;
+    text-align:center;
+    margin-top:70px;
+    font-family:'Varela Round', sans-serif;
+}
+/*תפרייט ניווט מתכונים*/
+#navmatconim
+{
+    margin-top:30px;
+}
+#helbonim
+{
+    margin-right:10px;
+float:right;
+display:inline-block;
+width:300px;
+height:335px;
+background-image:url(../image/meat2.png);
+background-size:100% 100%;
+text-decoration: none;
+cursor: not-allowed;
+}
+
+#pamemot
+{
+    margin-right:21px;
+    display:inline-block;
+    width:300px;
+height:335px;
+background-image:url(../image/pamemot2.png);
+background-size:100% 100%;
+text-decoration: none;
+cursor: not-allowed;
+}
+#yerakot
+{
+    margin-left:36px;
+float:left;
+display:inline-block;
+    width:300px;
+height:335px;
+background-image:url(../image/yerakot.png);
+background-size:100% 100%;
+text-decoration: none;
+}
+.matcon
+{
+    background-color:       rgba(255, 255, 255, 0.8);
+    height:                 40px;
+    width:                  300px;
+    text-align:             center;
+    padding-top:            10px;
+    color:                  black;
+    margin-top:50px;
+    font-size:12pt;
+    font-family:'Varela Round', sans-serif;
+    
+
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+#navmatconim a:hover .matcon
+{
+        background-color:       rgba(0, 0, 0, 0.8);
+        
+    height:                 40px;
+    width:                  300px;
+    text-align:             center;
+    padding-top:            10px;
+    color:                  white;
+    margin-top:50px;
+    font-size:12pt;
+    font-family:'Varela Round', sans-serif;
+}
+#navmatconim a:focus .matcon
+{
+        background-color:       rgba(0, 0, 0, 0.8);
+        
+    height:                 40px;
+    width:                  300px;
+    text-align:             center;
+    padding-top:            10px;
+    color:                  white;
+    margin-top:50px;
+    font-size:12pt;
+    font-family:'Varela Round', sans-serif;
+}
+        
+/*מתכונים ירקות 3.1*/
+.matcon_akordion
+{
+    margin-top:30px;
+    padding-left:20px;
+    
+}
+.panel-title,.panel-body h3 ,.panel-body li
+{
+    font-family:'Varela Round', sans-serif;
+}
+.panel-body
+{
+    margin-right:20px;
+}
+.panel-body h3
+{
+    margin-bottom:10px;
+    margin-top:35px;
+    font-weight: bold;
+    font-size: 13pt;
+}
+.panel-body li
+{
+    margin-top:5px;
+    font-size: 12pt;
+}
+.panel-body ol li
+{
+    margin-top:10px;
+    font-size: 12pt;
+}
+/*דף צור קשר 4*/
+form
+{
+    margin-top:10px;
+}
+label
+{
+    display:block;
+    padding-top:15px;
+    padding-bottom:15px;
+    font-size:12px;
+    font-family:'Varela Round', sans-serif;
+
+}
+.zor
+{
+    position:relative;
+}
+#zorkeser
+{
+    font-size:14pt;
+    font-weight: bold;
+    margin-top:50px;
+    text-align:center;
+    font-family:'Varela Round', sans-serif;
+}
+/*מפת האתר 5*/
+#footerMap
+{
+    margin-top:150px;
+}
+#map
+{
+   margin-top: 50px;
+}
+#map ul li
+{
+    display:inline-block;
+    padding-right:80px;
+    padding-bottom:10px;
+    font-family:'Varela Round', sans-serif;
+}
+#map ul li a
+{
+    position:relative;
+}
+#map ul li ul 
+{
+    position:absolute;
+        position:absolute;
+    right:150px;
+    top:250px;
+    font-family:'Varela Round', sans-serif;
+
+}
+#map ul li ul li
+{
+    display:block;
+    font-family:'Varela Round', sans-serif;
+}
+/*אודות 6*/
+#hit
+{
+    position:absolute;
+    top:150px;
+    left:30px;
+}
+#zuz 
+{
+    margin-top: 50px;
+    margin-right: 20px;
+    font-family: 'Varela Round', sans-serif;
+}
+#zuz2
+{
+    margin-top:30px;
+}
+.odot
+{
+    font-size:12pt;
+    padding-bottom:10px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.odot2
+{
+    font-size:12pt;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.odoth2
+{
+     font-size:13pt;
+    font-weight: bold;
+    font-family:'Varela Round', sans-serif;
+}
+.rva
+{
+    padding-top:10px;
+}
